@@ -17,21 +17,20 @@ I build tools at the intersection of **language, logic, and literature**.
 > A cross-reference engine for Blaise Pascal's *Pensées*
 
 **• Problem:**  
-Different editions of *Pensées* use different fragment numbering systems.  
+Four major editions (Brunschvicg, Lafuma, Le Guern, and Sellier) use different fragment numbering systems.  
 Cross-referencing them requires consulting large concordance tables.
 
 **• Approach:**  
-This project maps four major editions (Brunschvicg, Lafuma, Le Guern, and Sellier)  
-into a single unified data structure that enables fast cross-reference queries.
+Built a data pipeline that **transforms and normalizes heterogeneous CSV source data into a structured, flattened JSON schema**, implementing a unified, query-optimized data model that supports fast cross-edition lookups.  
 
 **• Impact:**  
 **Replaces a 40-page concordance table with a single query.**  
 
 &nbsp;  
 **Stack:** Python · React · Spring Boot · PostgreSQL  
-\- [Data Tooling Repository](https://github.com/devYuraKim/pensees-concordance-datatooling)  
-\- [Frontend Repository](https://github.com/devYuraKim/pensees-concordance-frontend)  
-\- [Backend Repository](https://github.com/devYuraKim/pensees-concordance-backend)  
+\- [Data Tooling Repository](https://github.com/devYuraKim/pensees-concordance-datatooling): Python ETL scripts for normalization, validation, and schema transformation.  
+\- [Frontend Repository](https://github.com/devYuraKim/pensees-concordance-frontend): React interface for fragment exploration and comparison.  
+\- [Backend Repository](https://github.com/devYuraKim/pensees-concordance-backend): Spring Boot API handling relational mappings and indexed queries.  
 
 ---
 
