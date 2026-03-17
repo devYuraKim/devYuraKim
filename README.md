@@ -28,9 +28,10 @@ into a single unified data structure that enables fast cross-reference queries.
 **Replaces a 40-page concordance table with a single query.**  
 
 &nbsp;  
-**Stack:** React · Spring Boot · PostgreSQL  
+**Stack:** Python · React · Spring Boot · PostgreSQL  
+\- [Data Tooling Repository](https://github.com/devYuraKim/pensees-concordance-datatooling)  
 \- [Frontend Repository](https://github.com/devYuraKim/pensees-concordance-frontend)  
-\- [Backend Repository](https://github.com/devYuraKim/pensees-concordance-backend)
+\- [Backend Repository](https://github.com/devYuraKim/pensees-concordance-backend)  
 
 ---
 
@@ -50,5 +51,5 @@ Now expanding into a shared space with chat and video conferencing support.
 
 &nbsp;  
 **Stack:** React · Spring Boot · MySQL  
-\- [FullStack Repository](https://github.com/devYuraKim/readingtrace)
+\- [Front/Backend Repository](https://github.com/devYuraKim/readingtrace)
 
