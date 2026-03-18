@@ -113,3 +113,4 @@ Now expanding into a shared space with chat and video conferencing support.
 
 ---
 
+**I don't vibe code. I *[vibe code](https://youtu.be/4c8O2n1Gfto?si=lzrIAurylKIVzRnE)*.**
